@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type-"text/css" href="estilo.css">
+        <title> Cadastro </title>
+        
+    </head>
+    
+    <body bgcolor="yellow">
+    
+    <form>
+        <fieldset>
+                <legend>Dados Pessoais</legend>
+            
+        Nome: <br>
+        <input type="text" name="Nome" required> <br>
+        Email: <br>
+        <input type="text" name="Email" required> <br>
+        CPF: <br>
+        <input type="text" name="CPF" required> <br>
+        RG: <br> 
+        <input tyoe="text" name="RG" required> <br>
+        DATA DE NASCIMENTO: <br> 
+        <input type="date" name="DATA DE NASCIMENTO"required> <br> <br>    
+        
+
+        <input type="radio" name="estadoCivil" value="casado" checked> Casado <br>
+        <input type="radio" name="estadoCivil" value="solteiro">  Solteiro <br>
+        <input type="radio" name="estadoCivil" value="outros">  Outros <br><br>
+            
+            Selecione a sua marca  <br>
+            <select name="carros">
+                <option value="Volvo">Volvo</option>
+                <option value="volkswagen" selected> Volkswagen</option>
+                <option value="fiat"> Fiat</option> 
+                <option value="audi">Audi</option>
+            </select> <br><br>
+            
+            Que estilo musical você gosta de ouvir ? <br> 
+            <input type="checkbox" name="estilo" value="rock"> Rock<br>
+            <input type="checkbox" name="estilo" value="sertanejo"> Sertanejo<br>
+            <input type="checkbox" name="estilo" value="pop"> Pop<br>
+            <input type="checkbox" name="estilo" value="Funk"> Funk<br><br>
+                <textarea name="sugestao" rows="10" cols="30"> Digite sua sugestão aqui. </textarea> <br>
+        <input type="submit" value="Enviar"> <br>
+        <input type="reset" value="LimparTudo">
+         </fieldset>
+    
+        
+    </form>    
+    
+        
+        
+        
+    </body>    
